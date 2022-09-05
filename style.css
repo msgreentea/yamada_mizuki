@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
+body {
+  color: #310c07;
+  line-height: 2;
+}
+.inner {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.section-title {
+  font-size: 24px;
+  color: #823329;
+  text-align: center;
+}
+.divide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* 縦の中央寄せする */
+}
+/*
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+      header
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+*/
+header {
+  display: flex;
+  height: 100px;
+  /* line-height: 100px; */
+  /* vertical-align: middle; */
+  align-items: center;
+  /* width: 90%; */
+  padding: 0 10%;
+  margin: 0 auto;
+  background-color: #eadeda;
+}
+header nav ul {
+  display: flex;
+  /* color: white; */
+}
+.logo {
+  color: #823329;
+  font-size: 27px;
+}
+
+/*
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+      profile
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+*/
+.profile {
+  height: 60vh;
+  align-items: center;
+}
+.profile img {
+  width: 25%;
+}
+.dl-profile {
+  display: flex;
+}
+/*
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+      職務経歴
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+*/
+.resume {
+  height: 70vh;
+}
+.gray {
+  color: #998888;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.resume h6 {
+  font-weight: normal;
+  background-color: #998888;
+  color: white;
+  border-radius: 30px;
+  line-height: 3;
+  text-align: center;
+  display: inline;
+  padding: 15px;
+}
+.resume .divide:first-child {
+  margin-bottom: 40px;
+}
+/*
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+      学習したこと
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+*/
+.study {
+  height: 80vh;
+}
+/*
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+      成果物
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+*/
+.work {
+  height: 50vh;
+}
+.work a {
+  background-color: #998888;
+  color: white;
+  border-radius: 30px;
+  line-height: 3;
+  text-align: center;
+  display: inline;
+  padding: 15px;
+}
+.work a:hover {
+  opacity: 0.8;
+}
+/*
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+      footer
+  ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊ ＊
+*/
+footer {
+  height: 50px;
+  background-color: #eadeda;
+}
